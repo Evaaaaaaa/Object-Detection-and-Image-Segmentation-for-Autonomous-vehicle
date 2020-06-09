@@ -1,8 +1,7 @@
-# Object-Detection-and-Image-Segmentation-for-Autonomous-vehicle
+# Image-Recognition-for-Autonomous-Driving
 This project effectively built and trained a model that can produce a top-down view of the surrounding area of an ego car by
 
-(1) locating and classifying objects on the road from images captured by six cameras on the car
-
+(1) locating and classifying objects on the road from images captured by six cameras on the car. <br>
 (2) generating the road map layout by semantic image segmentation.
 
 ## format
@@ -23,5 +22,5 @@ source ~/.bash_profile
 
 ## Training
 1. Please run train.py to generate two model paramter files.
-3. A pretraining script on Resnet is provided, but is not used by default.
+3. A pretraining script on Resnet18 is provided, but is not used by default.
 4. Model state_dict is not provided. Feel free to play around with different model parameter settings in *config*.
