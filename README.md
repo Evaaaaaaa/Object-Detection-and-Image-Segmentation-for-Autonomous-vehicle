@@ -23,7 +23,7 @@ source ~/.bash_profile
 ## Data
 Data could be downloaded at [data](https://drive.google.com/file/d/1oq83pFKNxrz-1E06_4YMazTABhSqY5su/view?usp=sharing).
 
-There are two different datasets in the data folder:
+The data folder contains two datasets:
 
  1. an unlabeled dataset for pre-training<br>
  2. a labeled dataset for both training and validation<br>
