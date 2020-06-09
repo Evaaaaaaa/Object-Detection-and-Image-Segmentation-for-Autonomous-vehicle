@@ -8,7 +8,6 @@ Here is my [prensentation](https://docs.google.com/presentation/d/1tINbCsJSMcSCo
 
 ## Folders
 - **configs** : Enable modification of all preset variables within single directory (consisting of one or many config files for separate tasks)
-- **data** : Include example a small amount of data in the Github repository so tests can be run to validate installation
 
 ## Setup
 Clone repository and update python path
@@ -23,6 +22,19 @@ source ~/.bash_profile
 ```
 ## Data
 Data could be downloaded at [data](https://drive.google.com/file/d/1oq83pFKNxrz-1E06_4YMazTABhSqY5su/view?usp=sharing).
+
+There are two different datasets in the data folder:
+
+ 1. an unlabeled dataset for pre-training<br>
+ 2. a labeled dataset for both training and validation<br>
+ 
+### The dataset is organized into three levels: scene, sample and image
+ 1. A scene is 25 seconds of a car's journey.<br>
+ 2. A sample is a snapshot of a scene at a given timeframe. Each scene will be divided into 126 samples, so about 0.2 seconds between consecutive samples.<br>
+ 3. Each sample contains 6 images captured by camera facing different orientation.<br>
+    Each camera will capture 70 degree view. To make it simple, you can safely assume that the angle between the cameras is 60 degrees.
+
+There are 106 scenes in the unlabeled dataset and 28 scenes in the labeled dataset.
 
 ## Training
 1. Please run train.py to generate two model paramter files.
