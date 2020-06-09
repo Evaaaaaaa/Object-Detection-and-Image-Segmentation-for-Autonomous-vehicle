@@ -36,7 +36,7 @@ The data folder contains two datasets:
 There are 106 scenes in the unlabeled dataset and 28 scenes in the labeled dataset.
 
 ## Training
-1. Please run train.py to generate two model paramter files.
+1. Please run train.py to generate two model parameter files.
 3. A pretraining script on Resnet18 is provided, but is not used by default.
 4. Model state_dict is not provided. Feel free to play around with different model parameter settings in *config*.
 
