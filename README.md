@@ -42,7 +42,7 @@ There are 106 scenes in the unlabeled dataset and 28 scenes in the labeled datas
 
 ## Evaluation
 The model's performance for binary road map is evaluated by using the average threat score (TS) across the test set:
-$\text{TS} = \frac{\text{TP}}{\text{TP} + \text{FP} + \text{FN}}$
+\\($\text{TS} = \frac{\text{TP}}{\text{TP} + \text{FP} + \text{FN}}$\\)
 
 The model's performance for object detection is evaluated by using the average mean threat score at different intersection over union (IoU) thresholds.<br>
 There will be five different thresholds (0.5, 0.6, 0.7, 0.8, 0.9). For each thresholds, the threat score is calculated. <br>The final score will be a weighted average of all the threat scores:
